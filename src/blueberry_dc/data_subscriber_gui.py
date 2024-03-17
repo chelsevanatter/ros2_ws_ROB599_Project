@@ -4,7 +4,7 @@
 #
 # Chelse VanAtter and Jostan Brown
 #
-# Code to plot displacement vs force and calculate sitffness from csv files
+# Code to create a graphical user interface for controlling the robot, setting the experiment data, and collecting rosbag files
 
 # Import ROS2 stuff
 import rclpy

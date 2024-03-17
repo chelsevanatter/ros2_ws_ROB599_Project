@@ -1,3 +1,10 @@
+# blueberry_dc.launch.py
+#
+# Chelse VanAtter and Jostan Brown
+#
+# Code to launch the intel RealSense 405 RGB-D camera and the arduino_interface code
+
+# Import ROS2 launch stuff
 from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.actions import IncludeLaunchDescription
@@ -5,7 +12,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import PathJoinSubstitution, TextSubstitution
 from launch_ros.substitutions import FindPackageShare
 
-# launch the realsense launch file
+# This function launches the realsense launch file and the arduino_interface node
 def generate_launch_description():
 
     realsense_launch =  IncludeLaunchDescription(
@@ -21,16 +28,7 @@ def generate_launch_description():
                                 'rgb_camera.profile':'848,480,5',
                                 'align_depth.enable': 'true',
                             }.items()
-                        )
-                                  
-    # Launch RViz with a specific configuration file
-    # rviz_node = Node(
-    #     package='rviz2',
-    #     executable='rviz2',
-    #     name='rviz2',
-    #     arguments=['-d', '/home/jostan/ros2_ws/src/blueberry_dc/config/rviz_config1.rviz'],
-    #     output='screen'
-    # )
+                        )                          
 
     arduino_interface_node = Node(
         package='blueberry_dc',
@@ -41,7 +39,6 @@ def generate_launch_description():
     
     return LaunchDescription([
         realsense_launch,
-        # rviz_node,
         arduino_interface_node,
         
     ])

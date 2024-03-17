@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/blueberry_dc/blueberry_dc.egg-info/PKG-INFO
+writing dependency_links to ../../build/blueberry_dc/blueberry_dc.egg-info/dependency_links.txt
+writing entry points to ../../build/blueberry_dc/blueberry_dc.egg-info/entry_points.txt
+writing requirements to ../../build/blueberry_dc/blueberry_dc.egg-info/requires.txt
+writing top-level names to ../../build/blueberry_dc/blueberry_dc.egg-info/top_level.txt
+reading manifest file '../../build/blueberry_dc/blueberry_dc.egg-info/SOURCES.txt'
+writing manifest file '../../build/blueberry_dc/blueberry_dc.egg-info/SOURCES.txt'
+running build
+running build_py
+copying blueberry_dc/arduino_interface.py -> /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build/lib/blueberry_dc
+running install
+running install_lib
+copying /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build/lib/blueberry_dc/arduino_interface.py -> /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc
+byte-compiling /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc/arduino_interface.py to arduino_interface.cpython-310.pyc
+running install_data
+creating /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/share/blueberry_dc/launch
+copying launch/blueberry_dc.launch.py -> /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/share/blueberry_dc/launch
+running install_egg_info
+removing '/home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/blueberry_dc/blueberry_dc.egg-info to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arduino_interface script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc
+Installing bag_reader script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc
+Installing data_subscriber script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc
+writing list of installed files to '/home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/install.log'

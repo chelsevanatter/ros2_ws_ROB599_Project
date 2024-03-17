@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# StiffnessPlotter.py
+# data_subscriber_gui.py
 #
 # Chelse VanAtter and Jostan Brown
 #

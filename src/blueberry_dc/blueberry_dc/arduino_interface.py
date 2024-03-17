@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+
+# StiffnessPlotter.py
+#
+# Chelse VanAtter and Jostan Brown
+#
+# Code to plot displacement vs force and calculate sitffness from csv files
+
+# Import ROS2 stuff
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray

@@ -24,6 +24,10 @@ The Blueberry Dynamics Test-rig is for measuring the stiffness and damping of bl
 - Jostan Brown: test-rig hardware and software, Husky navigation software
 - Mark Frost: IMU module hardware and software
 
+## Installations
+- The only installation you need to run this is for the intel RealSense camera
+- Use this command sudo apt install ros-humble-realsense2-*
+
 ## Usage
 - To run this code you need to colcon build the ros2_ws_ROB599_Project workspace which has a package called blueberry_dc. 
 

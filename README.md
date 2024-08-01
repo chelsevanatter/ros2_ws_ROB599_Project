@@ -54,14 +54,14 @@ The Blueberry Dynamics Test-rig is for measuring the stiffness and damping of bl
 ## Common Errors and Troubleshooting
 
 - The following commands will solve this error: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
-- pip list | grep matplotlib
-- apt list --installed | grep matplotlib
-- pip uninstall matplotlib
-- sudo apt-get remove --purge python3-matplotlib
-- pip install matplotlib
-- sudo apt-get update
-- sudo apt-get upgrade
-- sudo apt-get install python3-tk
+	- pip list | grep matplotlib
+	- apt list --installed | grep matplotlib
+	- pip uninstall matplotlib
+	- sudo apt-get remove --purge python3-matplotlib
+	- pip install matplotlib
+	- sudo apt-get update
+	- sudo apt-get upgrade
+	- sudo apt-get install python3-tk
 
 
 

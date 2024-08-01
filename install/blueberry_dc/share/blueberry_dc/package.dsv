@@ -1,0 +1,6 @@
+source;share/blueberry_dc/hook/pythonpath.ps1
+source;share/blueberry_dc/hook/pythonpath.dsv
+source;share/blueberry_dc/hook/pythonpath.sh
+source;share/blueberry_dc/hook/ament_prefix_path.ps1
+source;share/blueberry_dc/hook/ament_prefix_path.dsv
+source;share/blueberry_dc/hook/ament_prefix_path.sh

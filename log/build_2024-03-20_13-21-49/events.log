@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (blueberry_dc) JobQueued: {'identifier': 'blueberry_dc', 'dependencies': OrderedDict()}
+[0.000484] (blueberry_dc) JobStarted: {'identifier': 'blueberry_dc'}
+[0.098735] (-) TimerEvent: {}
+[0.199814] (-) TimerEvent: {}
+[0.300195] (-) TimerEvent: {}
+[0.400614] (-) TimerEvent: {}
+[0.501015] (-) TimerEvent: {}
+[0.601994] (-) TimerEvent: {}
+[0.702414] (-) TimerEvent: {}
+[0.802789] (-) TimerEvent: {}
+[0.903167] (-) TimerEvent: {}
+[1.003563] (-) TimerEvent: {}
+[1.104095] (-) TimerEvent: {}
+[1.142791] (blueberry_dc) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/blueberry_dc', 'build', '--build-base', '/home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build', 'install', '--record', '/home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/install.log', '--single-version-externally-managed'], 'cwd': '/home/chelse/ros2_ws_ROB599_Project/src/blueberry_dc', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chelse', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chelse', 'OLDPWD': '/home/chelse/ros2_ws_ROB599_Project/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2311', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chelse/ros2_ws_ROB599_Project/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chelse', '_': '/home/chelse/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chelse', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chelse-G5-5587:@/tmp/.ICE-unix/2283,unix/chelse-G5-5587:/tmp/.ICE-unix/2283', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b9389c32_3488_49cc_9f3f_15c2f532832b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SUDYK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.211', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/prefix_override:/home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages:/home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.204243] (-) TimerEvent: {}
+[1.304621] (-) TimerEvent: {}
+[1.405013] (-) TimerEvent: {}
+[1.466371] (blueberry_dc) StdoutLine: {'line': b'running egg_info\n'}
+[1.467536] (blueberry_dc) StdoutLine: {'line': b'writing ../../build/blueberry_dc/blueberry_dc.egg-info/PKG-INFO\n'}
+[1.468064] (blueberry_dc) StdoutLine: {'line': b'writing dependency_links to ../../build/blueberry_dc/blueberry_dc.egg-info/dependency_links.txt\n'}
+[1.468454] (blueberry_dc) StdoutLine: {'line': b'writing entry points to ../../build/blueberry_dc/blueberry_dc.egg-info/entry_points.txt\n'}
+[1.468937] (blueberry_dc) StdoutLine: {'line': b'writing requirements to ../../build/blueberry_dc/blueberry_dc.egg-info/requires.txt\n'}
+[1.469337] (blueberry_dc) StdoutLine: {'line': b'writing top-level names to ../../build/blueberry_dc/blueberry_dc.egg-info/top_level.txt\n'}
+[1.472056] (blueberry_dc) StdoutLine: {'line': b"reading manifest file '../../build/blueberry_dc/blueberry_dc.egg-info/SOURCES.txt'\n"}
+[1.473477] (blueberry_dc) StdoutLine: {'line': b"writing manifest file '../../build/blueberry_dc/blueberry_dc.egg-info/SOURCES.txt'\n"}
+[1.473985] (blueberry_dc) StdoutLine: {'line': b'running build\n'}
+[1.474181] (blueberry_dc) StdoutLine: {'line': b'running build_py\n'}
+[1.474540] (blueberry_dc) StdoutLine: {'line': b'copying blueberry_dc/ros_bag_to_csv.py -> /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build/lib/blueberry_dc\n'}
+[1.474874] (blueberry_dc) StdoutLine: {'line': b'copying blueberry_dc/ros_bag_play.py -> /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build/lib/blueberry_dc\n'}
+[1.475447] (blueberry_dc) StdoutLine: {'line': b'running install\n'}
+[1.475809] (blueberry_dc) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.476006] (blueberry_dc) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.476320] (blueberry_dc) StdoutLine: {'line': b'running install_lib\n'}
+[1.477410] (blueberry_dc) StdoutLine: {'line': b'copying /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build/lib/blueberry_dc/ros_bag_to_csv.py -> /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc\n'}
+[1.477799] (blueberry_dc) StdoutLine: {'line': b'copying /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build/lib/blueberry_dc/ros_bag_play.py -> /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc\n'}
+[1.478760] (blueberry_dc) StdoutLine: {'line': b'byte-compiling /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc/ros_bag_to_csv.py to ros_bag_to_csv.cpython-310.pyc\n'}
+[1.480061] (blueberry_dc) StdoutLine: {'line': b'byte-compiling /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc/ros_bag_play.py to ros_bag_play.cpython-310.pyc\n'}
+[1.480928] (blueberry_dc) StdoutLine: {'line': b'running install_data\n'}
+[1.481829] (blueberry_dc) StdoutLine: {'line': b'copying launch/csv.launch.py -> /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/share/blueberry_dc/launch\n'}
+[1.482212] (blueberry_dc) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.484489] (blueberry_dc) StdoutLine: {'line': b"removing '/home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.485124] (blueberry_dc) StdoutLine: {'line': b'Copying ../../build/blueberry_dc/blueberry_dc.egg-info to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc-0.0.0-py3.10.egg-info\n'}
+[1.486470] (blueberry_dc) StdoutLine: {'line': b'running install_scripts\n'}
+[1.505173] (-) TimerEvent: {}
+[1.514186] (blueberry_dc) StdoutLine: {'line': b'Installing arduino_interface script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc\n'}
+[1.514644] (blueberry_dc) StdoutLine: {'line': b'Installing bag_reader script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc\n'}
+[1.515233] (blueberry_dc) StdoutLine: {'line': b'Installing data_subscriber script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc\n'}
+[1.515699] (blueberry_dc) StdoutLine: {'line': b'Installing ros_bag_play script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc\n'}
+[1.515930] (blueberry_dc) StdoutLine: {'line': b'Installing ros_bag_to_csv script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc\n'}
+[1.516074] (blueberry_dc) StdoutLine: {'line': b'Installing ros_bag_to_csv_old script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc\n'}
+[1.516423] (blueberry_dc) StdoutLine: {'line': b"writing list of installed files to '/home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/install.log'\n"}
+[1.545350] (blueberry_dc) CommandEnded: {'returncode': 0}
+[1.605726] (-) TimerEvent: {}
+[1.644209] (blueberry_dc) JobEnded: {'identifier': 'blueberry_dc', 'rc': 0}
+[1.646292] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[console_scripts]
+arduino_interface = blueberry_dc.arduino_interface:main
+bag_reader = blueberry_dc.bag_reader:main
+data_subscriber = blueberry_dc.data_subscriber:main
+ros_bag_play = blueberry_dc.ros_bag_play:main
+ros_bag_to_csv = blueberry_dc.ros_bag_to_csv:main
+ros_bag_to_csv_old = blueberry_dc.ros_bag_to_csv_old:main
+

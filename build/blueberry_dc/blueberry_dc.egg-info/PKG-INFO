@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: blueberry-dc
+Version: 0.0.0
+Summary: Package for controlling two linear actuators with stepper motors, camera, load cell, and IMU modules for blueberry cane stiffness and damping testing
+Home-page: UNKNOWN
+Maintainer: Chelse VanAtter
+Maintainer-email: chelsevanatter@gmail.com
+License: BSD 3-Clause
+Platform: UNKNOWN
+
+UNKNOWN
+

@@ -1,0 +1,30 @@
+[0.676s] Invoking command in '/home/chelse/ros2_ws_ROB599_Project/src/blueberry_dc': PYTHONPATH=/home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/prefix_override:/home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blueberry_dc build --build-base /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build install --record /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/install.log --single-version-externally-managed
+[0.888s] running egg_info
+[0.888s] writing ../../build/blueberry_dc/blueberry_dc.egg-info/PKG-INFO
+[0.889s] writing dependency_links to ../../build/blueberry_dc/blueberry_dc.egg-info/dependency_links.txt
+[0.889s] writing entry points to ../../build/blueberry_dc/blueberry_dc.egg-info/entry_points.txt
+[0.889s] writing requirements to ../../build/blueberry_dc/blueberry_dc.egg-info/requires.txt
+[0.889s] writing top-level names to ../../build/blueberry_dc/blueberry_dc.egg-info/top_level.txt
+[0.891s] reading manifest file '../../build/blueberry_dc/blueberry_dc.egg-info/SOURCES.txt'
+[0.892s] writing manifest file '../../build/blueberry_dc/blueberry_dc.egg-info/SOURCES.txt'
+[0.892s] running build
+[0.892s] running build_py
+[0.893s] copying blueberry_dc/ros_bag_to_csv_old.py -> /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build/lib/blueberry_dc
+[0.893s] running install
+[0.893s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.893s]   warnings.warn(
+[0.893s] running install_lib
+[0.894s] copying /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build/lib/blueberry_dc/ros_bag_to_csv_old.py -> /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc
+[0.895s] byte-compiling /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc/ros_bag_to_csv_old.py to ros_bag_to_csv_old.cpython-310.pyc
+[0.895s] running install_data
+[0.896s] running install_egg_info
+[0.897s] removing '/home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc-0.0.0-py3.10.egg-info' (and everything under it)
+[0.897s] Copying ../../build/blueberry_dc/blueberry_dc.egg-info to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages/blueberry_dc-0.0.0-py3.10.egg-info
+[0.898s] running install_scripts
+[0.916s] Installing arduino_interface script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc
+[0.916s] Installing bag_reader script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc
+[0.916s] Installing data_subscriber script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc
+[0.916s] Installing ros_bag_to_csv script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc
+[0.917s] Installing ros_bag_to_csv_old script to /home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/blueberry_dc
+[0.917s] writing list of installed files to '/home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/install.log'
+[0.937s] Invoked command in '/home/chelse/ros2_ws_ROB599_Project/src/blueberry_dc' returned '0': PYTHONPATH=/home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/prefix_override:/home/chelse/ros2_ws_ROB599_Project/install/blueberry_dc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blueberry_dc build --build-base /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/build install --record /home/chelse/ros2_ws_ROB599_Project/build/blueberry_dc/install.log --single-version-externally-managed
